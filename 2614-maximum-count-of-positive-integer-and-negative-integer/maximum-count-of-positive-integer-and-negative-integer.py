@@ -10,4 +10,7 @@ class Solution:
             return x
         else:
             return y
+# we can max function for returning the x or y
+# in this case i used if-else because of runtime
+# the runtime for max function is 113ms for if-else = 110 
         
