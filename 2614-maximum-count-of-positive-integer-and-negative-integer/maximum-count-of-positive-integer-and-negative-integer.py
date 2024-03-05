@@ -6,5 +6,8 @@ class Solution:
                 x+=1
             elif i < 0:
                 y+=1
-        return max(x,y)
+        if x>y:
+            return x
+        else:
+            return y
         
