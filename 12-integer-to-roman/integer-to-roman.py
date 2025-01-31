@@ -5,9 +5,9 @@ class Solution:
             5:"V",4:"IV",1:"I"
         }
         res = ""
-        for val,numeral in x.items():
-            while num >= val:
-                res += numeral
-                num -= val
+        for v,k in x.items():
+            while num >= v:
+                res += k
+                num -= v
         return res
         
