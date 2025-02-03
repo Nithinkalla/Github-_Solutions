@@ -1,6 +1,8 @@
 class Solution:
     def findMin(self, nums: List[int]) -> int:
-        return min(nums)
+        nums.sort()
+        return nums[0]
+        #return min(nums)
         # mini = nums[0]
         # for i in nums:
         #     if i < mini:
