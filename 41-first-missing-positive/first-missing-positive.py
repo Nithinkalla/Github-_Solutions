@@ -4,4 +4,4 @@ class Solution:
         i = 1
         while i in num:
             i += 1
-        return i;
+        return i
