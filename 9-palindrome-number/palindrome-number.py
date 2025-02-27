@@ -1,9 +1,8 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
-        y = list(str(x))
-        jnstr = "".join(y)
-        rev = jnstr[::-1]
-        if jnstr == rev:
-            return True
-        else:
-            return False
+        s = 0
+        y = x
+        while x > 0:
+            s = s * 10 + x % 10
+            x //= 10
+        return y == s
